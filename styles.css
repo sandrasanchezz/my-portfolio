@@ -1,25 +1,22 @@
 body {
     margin: 0;
     padding: 0;
-    line-height: 1.6;
     background-color: #dec0f1;
     color: #333;
-    font-family: "Palatino Linotype", sans-serif;
+    font-family: "Palatino Linotype", Palatino, Georgia, serif;
 }
 
 .introduction {
-    width: 100%;
     text-align: center;
-    padding-top: 35px;
+    padding: 35px;
+    background-color: #dec0f1;
 }
 
 .introduction h1 {
     font-size: 1.8em;
-    font-family: "georgia", sans-serif;
-}
-.about-container {
-    width: 500px;
-    margin: 0 auto;
+    font-family: Georgia, "Times New Roman", serif;
+    margin-top: 30px;
+    margin-bottom: 25px;
 }
 
 .profile-picture {
@@ -28,16 +25,6 @@ body {
     border-radius: 30px;
     object-fit: cover;
     border: 5px solid #9a7ab8;
-}
-
-.about-container h1 {
-    margin-top: 30px;
-    margin-bottom: 25px;
-}
-
-.about-container p {
-    margin: 0 auto;
-    width: 500px;
 }
 
 .tagline {
@@ -51,15 +38,45 @@ body {
     display: inline-block;
     padding: 10px 20px;
     margin-top: 10px;
-    background-color: #9a7ab8;
-    color: black;
+    background-color: #7d5aa0;
+    color: white;
     border-radius: 5px;
     font-weight: bold;
     text-decoration: none;
-    color:white;
 }
 
 .button:hover {
-    background-color: #8e7899;
-    transform: scale(1.02);
+    background-color: #66478a;
+}
+
+.about {
+    background-color: #d0a0f0;
+    padding: 40px;
+}
+
+.about h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.about-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.about-box {
+    flex: 1 1 260px;
+    padding: 25px;
+    background-color: #dec0f1;
+    border-radius: 20px;
+    border: 1px solid #9a7ab8;
 }
