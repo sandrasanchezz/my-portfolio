@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #dec0f1;
+    color: #333;
+    font-family: "Palatino Linotype", sans-serif;
+}
+
+.introduction {
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.introduction h1 {
+    font-size: 1.8em;
+    font-family: "georgia", sans-serif;
+}
+.about-container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.profile-picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    object-fit: cover;
+    border: 5px solid #9a7ab8;
+}
+
+.about-container h1 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.about-container p {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.tagline {
+    color: #550a64;
+    margin-top: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #9a7ab8;
+    color: black;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+    color:white;
+}
+
+.button:hover {
+    background-color: #8e7899;
+    transform: scale(1.02);
+}
