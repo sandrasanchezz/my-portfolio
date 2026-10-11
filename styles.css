@@ -5,6 +5,48 @@ body {
     color: #333;
     font-family: "Palatino Linotype", Palatino, Georgia, serif;
 }
+/* ---------- ACTIVITY 6 ---------- */
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 12px 40px;
+    background-color: #35033f;
+}
+ 
+.logo {
+    color: white;
+    font-size: 1.4em;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+.nav-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ 
+.nav-links a {
+    color: #ecd9f7;
+    text-decoration: none;
+    padding: 6px 4px;
+    border-bottom: 2px solid transparent;
+    transition: color 0.3s, border-color 0.3s;
+}
+ 
+.nav-links a:hover {
+    color: white;
+    border-bottom-color: #d0a0f0;
+}
+
 
 .introduction {
     text-align: center;
@@ -135,12 +177,12 @@ body {
     text-align: center;
 }
 
-.project {
+.projects {
     background-color: #d0a0f0;
     padding: 40px;
 }
 
-.project h2 {
+.projects h2 {
     text-align: center;
     margin-bottom: 30px;
     color: #35033f;
