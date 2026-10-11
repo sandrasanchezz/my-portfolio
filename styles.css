@@ -177,6 +177,8 @@ body {
     text-align: center;
 }
 
+/* ---------- ACTIVITY 4 ---------- */
+
 .projects {
     background-color: #d0a0f0;
     padding: 40px;
@@ -232,6 +234,8 @@ body {
     display: block;
 }
 
+/* ---------- ACTIVITY 5---------- */
+
 .experience {
     background-color: #dac2eb;
     padding: 40px;
@@ -265,6 +269,75 @@ body {
     background-color: #7d5aa0;
     color: white;
     text-align: center;
+}
+
+/* ---------- ACTIVITY 7 ---------- */
+
+.contact {
+    background-color: #d0a0f0;
+    padding: 40px;
+}
+ 
+.contact h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #580069;
+}
+ 
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 25px;
+    background-color: #f3e6fa;
+    border: 3px solid #9a7ab8;
+    border-radius: 15px;
+}
+ 
+.contact-form label {
+    font-weight: bold;
+    color: #6b4872;
+}
+ 
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #9a7ab8;
+    border-radius: 5px;
+    font-family: inherit;
+    font-size: 1em;
+    background-color: white;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+ 
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    border-color: #6c2e79;
+    box-shadow: 0 0 6px #550a6480;
+}
+ 
+.contact-form textarea {
+    resize: vertical;
+}
+ 
+.send-button {
+    padding: 12px;
+    background-color: #7d5aa0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+ 
+.send-button:hover {
+    background-color: #66478a;
 }
  
  
