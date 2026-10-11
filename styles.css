@@ -27,6 +27,27 @@ body {
     border: 5px solid #9a7ab8;
 }
 
+.introduction-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+.intro-text {
+    text-align: center;
+}
+
+.photo-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-shrink: 0; 
+}
+
 .tagline {
     color: #550a64;
     margin-top: 20px;
@@ -62,8 +83,8 @@ body {
 
 .about h3 {
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 20px;
+    margin-top: 0; 
+    margin-bottom: 20px; 
     color: #6b4872;
 }
 
@@ -92,21 +113,77 @@ body {
 }
 
 .skills-container{
+    width: 960px;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
+    display: grid;
+    gap: 10px;
+    justify-content: center;
+    grid-template-columns: repeat(6, 1fr);
+    
 }
 
 
 .skills-box {
-    width: 200px;
+    width: 130px;
     height: 110px;
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     background-color: #d0a0f0;
-    padding: 25px;
     border-radius: 15px;
     border: 3px solid #9a7ab8;
+    text-align: center;
+}
+
+.project {
+    background-color: #d0a0f0;
+    padding: 40px;
+}
+
+.project h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #35033f;
+}
+
+.project-container {
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.project-box {
+    max-width: 300px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;       
+    background-color: #dac2eb;
+    border-radius: 15px;
+    border: 3px solid #9a7ab8;      
+    overflow: hidden;             
+    text-align: center;
+}
+
+.project-box h3 {
+    font-size: 1.2em;
+    color: #35033f;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    gap: 10px;
+}
+
+.project-image {
+    width: 100%;
+    height: 180px;
 }
