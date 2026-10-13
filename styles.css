@@ -155,7 +155,8 @@ body {
 }
 
 .skills-container{
-    width: 960px;
+    width: auto;
+    max-width: 960px;
     margin: 0 auto;
     display: grid;
     gap: 10px;
@@ -166,7 +167,7 @@ body {
 
 
 .skills-box {
-    width: 130px;
+    width: auto;
     height: 110px;
     display: grid;
     align-items: center;
@@ -249,7 +250,7 @@ body {
 }
 
 .table-wrapper {
-    max-width: 960px;
+    max-width: 100%;
     margin: 0 auto;
     overflow-x: auto;
 }
@@ -339,5 +340,61 @@ body {
 .send-button:hover {
     background-color: #66478a;
 }
+ /* ---------- ACTIVITY 8 ---------- */
+
  
+/* --------Tablet--------- */
+@media (max-width: 900px) {
+    .skills-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
  
+    .navbar {
+        padding: 12px 20px;
+    }
+}
+ 
+/*----------Mobile---------- */
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        gap: 8px;
+    }
+ 
+    .nav-links {
+        justify-content: center;
+        gap: 12px;
+    }
+ 
+    html {
+        scroll-padding-top: 110px;
+    }
+ 
+    .introduction,
+    .about,
+    .skills,
+    .projects,
+    .experience,
+    .contact {
+        padding: 25px 15px;
+    }
+ 
+    .introduction-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+ 
+    .skills-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+ 
+    .project-card {
+        max-width: 100%;
+    }
+ 
+    .experience-table th,
+    .experience-table td {
+        padding: 8px;
+        font-size: 0.9em;
+    }
+}
