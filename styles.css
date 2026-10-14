@@ -250,7 +250,7 @@ body {
 }
 
 .table-wrapper {
-    max-width: 100%;
+    max-width: 960px;
     margin: 0 auto;
     overflow-x: auto;
 }
@@ -340,6 +340,19 @@ body {
 .send-button:hover {
     background-color: #66478a;
 }
+
+/* ---------- Footer ---------- */
+.footer {
+    background-color: #35033f;
+    color: #ecd9f7;
+    text-align: center;
+    padding: 20px;
+}
+ 
+.footer p {
+    margin: 0;
+}
+ 
  /* ---------- ACTIVITY 8 ---------- */
 
  
